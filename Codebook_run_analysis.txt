@@ -31,13 +31,13 @@ Final DataSet
 
 - 'Tidyfile.txt': Average values of the variable captured in the original datasets by subject and activity label.
 
-Variables 
-=========
+Variables in integer format
+===========================
 1 Subject : identifier of the subject who carried out the experiment
 2 ActivityNbr: Activity label. Refer to 'activity_labels.txt' from the Source codebook for descriptions of each label
 
-Average values of the mean and standard deviation feature vectors of the Source datasets
-========================================================================================
+Average values of the mean and standard deviation feature vectors of the Source datasets in num format
+======================================================================================================
 3 tBodyAccMeanAvgX
 4 tBodyAccMeanAvgY
 5 tBodyAccMeanAvgZ

@@ -18,7 +18,10 @@
 #Part 2:
 #Transform to a narrow dataframe using melt function to assist in average calculation
 # Using dcast function, transform back to a wide package with the averages for the mean and std deviation columns by subject and activity number
-#Save resulting dataframe into a text file Tidyfile.txt
+#Save resulting dataframe into a text file Tidyfile.txt using Write.table functio
 
-
+#Reading the file Tidyfile.txt:
+#File has 68 columns and 180 rows
+#File has headers included for each column
+#Use read.table with header=TRUE to read file into a dataframe
 

@@ -61,6 +61,6 @@ run_analysis <-function()
   colnames(ccast)<-gsub("std","StdAvg",names(ccast))
   
   #generate the tidy dataset for part 2 of the project
-  write.table(Tidyfile,"Tidyfile.txt",row.names=FALSE)
+  write.table(ccast,"Tidyfile.txt",row.names=FALSE)
   
 }
